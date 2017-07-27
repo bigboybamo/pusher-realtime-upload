@@ -42,7 +42,7 @@ export default {
       data.url = this.cl.url(data.public_id, {width: 500, height: 400, crop: "fill"})
       this.images.unshift(data)
     });
-    this.cl = new cloudinary.Cloudinary({cloud_name: 'christekh', secure: true})
+    this.cl = new cloudinary.Cloudinary({cloud_name: '<CLOUD_NAME_HERE>', secure: true})
     axios.get('http://localhost:5000')
       .then(({data}) => {
         this.spin = false
