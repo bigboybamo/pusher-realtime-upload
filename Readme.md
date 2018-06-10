@@ -2,6 +2,8 @@
 
 The repository contains two projects -- the server for the demo and a client app built with Vue.
 
+[View tutorial](https://pusher.com/tutorials/photo-feed-vuejs)
+
 ## Usage
 
 ### Server
